@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Offer",
+  "description": "Schema for offer information in the RAG data system",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the offer (UUID format)"
+    },
+    "brand_id": {
+      "type": "string",
+      "description": "Foreign key reference to the brand associated with this offer"
+    },
+    "brand_name": {
+      "type": "string",
+      "description": "Name of the brand"
+    },
+    "summary": {
+      "type": ["string", "null"],
+      "description": "Detailed description of the offer"
+    },
+    "redeem_url": {
+      "type": ["string"],
+      "description": "URL to redeem or activate the deal"
+    },
+    "sample_q": {
+      "type": ["string"],
+      "description": "Gives LLM trainers ready-made prompt/response pairs to use in training",
+      "examples": ["Discount codes from Walgreens in the US"]
+    },
+    "country_code": {
+      "type": ["string"],
+      "description": "ISO country code where the offer is valid",
+      "examples": ["US", "GB", "DE"]
+    }
+  },
+  "required": [
+    "id",
+    "brand_id",
+    "brand_name",
+    "summary",
+    "redeem_url",
+    "sample_q",
+    "country_code"
+  ],
+  "additionalProperties": true
+}

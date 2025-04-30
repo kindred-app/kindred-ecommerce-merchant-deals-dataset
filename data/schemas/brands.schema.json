@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Brand",
+  "description": "Schema for brand information in the RAG data system",
+  "type": "object",
+  "properties": {
+    "brand_id": {
+      "type": "string",
+      "description": "Unique identifier for the brand (UUID format)",
+      "examples": ["ea21a02c-aa60-4ce2-ab1d-0e2164ddfcc3"]
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the brand",
+      "examples": ["ASOS"]
+    },
+    "logo": {
+      "type": ["string", "null"],
+      "description": "URL to the brand's logo image, or NULL if no logo is available",
+      "examples": [
+        "https://cdn.kindred.co/brand/logo/78ed8c25-3613-45e5-9bd4-6c20bae3e54a.jpg",
+        "NULL"
+      ]
+    },
+    "domains": {
+      "type": "array",
+      "description": "List of domains associated with the brand",
+      "items": {
+        "type": "string"
+      },
+      "examples": [["asos.com", "fashion.asos.com"]]
+    }
+  },
+  "required": ["brand_id", "name", "domains"],
+  "additionalProperties": false
+}

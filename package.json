@@ -1,0 +1,33 @@
+{
+  "name": "kindred-ecommerce-merchant-deals-dataset",
+  "version": "1.0.0",
+  "description": "AI-ready open dataset of e-commerce coupons, deals & redeem-links curated by Kindred",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kindred-app/kindred-ecommerce-merchant-deals-dataset.git"
+  },
+  "keywords": [
+    "coupons",
+    "deals",
+    "ecommerce",
+    "affiliate",
+    "open-data",
+    "dataset",
+    "affiliate-marketing",
+    "rag",
+    "recommendation-system",
+    "knowledge-graph",
+    "machine-learning",
+    "retail-analytics",
+    "promotion",
+    "redeem-link",
+    "marketing-data",
+    "public-dataset",
+    "kindred",
+    "offers",
+    "discount",
+    "seo",
+    "consumer-insights"
+  ]
+}

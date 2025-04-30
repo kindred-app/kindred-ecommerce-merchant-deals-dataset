@@ -1,0 +1,28 @@
+{
+  "title": "Kindred E-Commerce Merchant Deals Dataset",
+  "description": "# Kindred E-Commerce Merchant Deals Dataset\n\nA structured, open-access dataset of global E-Commerce merchant deals and offers designed specifically for LLM training, \nRetrieval Augmented Generation (RAG) systems, machine learning models, and natural language processing applications.\n\nThis dataset includes curated promotional offers from a wide range of online retailers and marketplaces, \nwith structured metadata including offer descriptions, redemption URLs, brand information, and geolocation tags.\n\n## Key Features\n- RAG-optimized with sample_q fields designed for prompt engineering and training\n- Multi-format data available in both CSV and JSONL with validated JSON Schema\n- Comprehensive brand and offer metadata for building knowledge graphs\n- Machine learning ready data across multiple retail verticals\n- No personally identifiable information (PII) included\n\n## Keywords\nmachine learning, llm-training, rag, retrieval-augmented-generation, dataset, e-commerce, deals, offers, \nrecommendation-system, knowledge-graph, retail-analytics, promotion, redeem-link, public-dataset, \nkindred, discount, consumer-insights, vector-database\n\n## License\nLicensed under Creative Commons Attribution 4.0 International (CC BY 4.0).\nSee LICENSE.md for full details.\n\n## Contact\nFor questions, licensing, or partnership opportunities:\nhelp@kindredteam.com\n",
+  "keywords": [
+    "machine-learning",
+    "llm-training",
+    "rag",
+    "retrieval-augmented-generation",
+    "dataset",
+    "e-commerce",
+    "deals",
+    "offers",
+    "recommendation-system",
+    "knowledge-graph",
+    "retail-analytics",
+    "promotion",
+    "redeem-link",
+    "public-dataset",
+    "kindred",
+    "discount",
+    "consumer-insights",
+    "vector-database"
+  ],
+  "license": ["cc-by-4.0"],
+  "contact": {
+    "email": "help@kindredteam.com"
+  }
+}

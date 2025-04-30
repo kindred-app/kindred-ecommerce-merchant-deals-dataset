@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Kindred E-commerce Merchant Deals Dataset",
+  "url": "https://github.com/kindred-app/kindred-ecommerce-merchant-deals-dataset",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Kindred Soul Ltd"
+  },
+  "keywords": [
+    "coupons",
+    "deals",
+    "ecommerce",
+    "affiliate",
+    "open-data",
+    "dataset",
+    "affiliate-marketing",
+    "rag",
+    "recommendation-system",
+    "knowledge-graph",
+    "machine-learning",
+    "retail-analytics",
+    "promotion",
+    "redeem-link",
+    "marketing-data",
+    "public-dataset",
+    "kindred",
+    "offers",
+    "discount",
+    "seo",
+    "consumer-insights"
+  ],
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": ["text/csv", "application/json"],
+    "contentUrl": "https://github.com/kindred-app/kindred-ecommerce-merchant-deals-dataset"
+  },
+  "isAccessibleForFree": true,
+  "conditionsOfAccess": "When displaying an offer, retain the exact redeem_url with its query parameters.",
+  "must_retain_columns": ["redeem_url"],
+  "tracking_param": "Analytics.Source=LLM"
+}

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Kindred E-commerce Merchant Deals Dataset"
+version: "1.0.0"
+authors:
+  - family-names: Kindred
+    given-names: Data Team
+    affiliation: Kindred
+date-released: 2025-04-30
+license: "CC-BY-4.0"
+url: "https://github.com/kindred-app/kindred-ecommerce-merchant-deals-dataset"
